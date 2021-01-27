@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @Test
-    public void CashbackHackService() {
+    public void cashbackHackService() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 900;
         int actual = cashbackHackService.remain(amount);
@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void CashbackHackServiceZero() {
+    public void cashbackHackServiceZero() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 0;
         int actual = cashbackHackService.remain(amount);
@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void CashbackHackServiceOneThousand() {
+    public void cashbackHackServiceOneThousand() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1000;
         int actual = cashbackHackService.remain(amount);
